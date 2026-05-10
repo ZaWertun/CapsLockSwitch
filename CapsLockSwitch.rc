@@ -61,8 +61,8 @@ IDI_ICON                ICON                    "icon\\icon.ico"
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,0
- PRODUCTVERSION 1,0,0,0
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -79,12 +79,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Home Project LTD"
             VALUE "FileDescription", "CapsLock Switch"
-            VALUE "FileVersion", "1.0.0.0"
+            VALUE "FileVersion", "1.1.0.0"
             VALUE "InternalName", "CapsLock.exe"
-            VALUE "LegalCopyright", "Copyright (C) 2022 Yaroslav Sidlovsky <zawertun@gmail.com>"
+            VALUE "LegalCopyright", "Copyright (C) 2022-2026 Yaroslav Sidlovsky <zawertun@gmail.com>"
             VALUE "OriginalFilename", "CapsLock.exe"
             VALUE "ProductName", "CapsLock Switch"
-            VALUE "ProductVersion", "1.0.0.0"
+            VALUE "ProductVersion", "1.1.0.0"
         END
     END
     BLOCK "VarFileInfo"
