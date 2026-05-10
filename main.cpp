@@ -1,10 +1,8 @@
+#define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 #include <WinUser.h>
 #include <strsafe.h>
 #include <shellapi.h>
-
-#include <sstream>
-#define DEBUG_PRINT(s) { std::wostringstream ss; ss << s << "\n"; OutputDebugString(ss.str().c_str()); }
 
 #include "resource.h"
 
